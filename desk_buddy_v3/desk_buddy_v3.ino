@@ -13,8 +13,8 @@ Adafruit_ST7789 tft = Adafruit_ST7789(&SPI, -1, 1, 0);
 
 // ======================== PENGATURAN ========================
 // --- WiFi (dipakai sebentar saja untuk sinkron jam dan ambil cuaca) ---
-const char *WIFI_SSID = "RX-93";
-const char *WIFI_PASS = "Elite1104!";
+const char *WIFI_SSID = "WIFI";
+const char *WIFI_PASS = "WIFI-PASS";
 
 // --- Lokasi cuaca (default: Bandung). Ganti kalau lokasimu beda ---
 const char *LATITUDE  = "-6.9175";
